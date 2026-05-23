@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Calendar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="page">
+        <header>
+        <h1>A little something, every day</h1>
+        <p class="subtitle">Open today's door - a note is waiting inside</p>
+        </header>
+        <div class="calendar-grid" id="calendar-grid">
+        </div>
+    </div>
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-card">
+        <p class="modal-day" id="modal-day"></p>
+        <p class="modal-message" id="modal-message"></p>
+        <button id="modal-close">close</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+   </body>
+  </html>
