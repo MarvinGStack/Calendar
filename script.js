@@ -1,6 +1,6 @@
 const totalDoors = 21;
 const now = new Date();
-const start = new Date(2026, 3, 25);
+const start = new Date(2026, 4, 25);
 const difference = now - start;
 const dayNumber = Math.floor(difference / (1000* 60* 60* 24)) + 1;
 const today = Math.min(Math.max(dayNumber, 0), totalDoors);
