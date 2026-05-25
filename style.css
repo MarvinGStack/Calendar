@@ -1,7 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f9f5f0;
+    background-image:
+    linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
+    url('Pictures/Background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Lato', sans-serif;
 }
 .page {
@@ -12,12 +17,14 @@ body {
 }
 h1 {
     font-family: 'Playfair Display', serif;
-    color:#530303;
+    color:#4d0547;
     font-size: 40px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 .subtitle {
-    color: #3d0761;
+    color: #4d0547;
     font-size: 18px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
 .calendar-grid {
     display: grid;
@@ -72,12 +79,6 @@ h1 {
     text-align: center;
     border: 1px solid #e8d5b7;
     animation: fadeIn 0.3s ease;
-    background-image:
-    linear-gradient(rgba(255, 255, 255, 0.75),
-    rgba(255, 255, 255, 0.3)),
-    url('https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&q=80');
-    background-size: cover;
-    background-position: center;
 }
 @keyframes fadeIn {
     from { opacity: 0; transform: scale(0.9); }
@@ -89,15 +90,16 @@ h1 {
     font-weight: 600;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #c9a87c;
+    color: #d49037;
     margin-bottom: 1rem;
+    text-shadow: 0px 1px 3px rgba(0,0,0,0.3);
 }
 .modal-message {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 18px;
     line-height: 1.8;
-    color: #3d0761;
-    font-style: italic;
+    color: #561383;
+    font-style:italic;
 }
 #modal-close {
     margin-top: 1.5rem;
@@ -105,7 +107,7 @@ h1 {
     border: 1px solid #c9a87c;
     border-radius: 20px;
     background-color: transparent;
-    color: #c9a87c;
+    color: #29041b;
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     letter-spacing: 2px;
@@ -131,4 +133,18 @@ h1 {
     padding: 1.5rem;
     margin: 1rem;
 }
+}
+.week-1 {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url('Pictures/Week1.jpg')
+}
+.week-2 {
+    background-image:
+    linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url('Pictures/Week2.jpg')
+}
+.week-3 {
+    background-image:
+    linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url('Pictures/Week3.jpg')
 }
