@@ -148,3 +148,18 @@ h1 {
     linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
     url('Pictures/Week3.jpg')
 }
+.week-4 {
+    background-image:
+    linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url('Pictures/Week4.jpg');
+}
+.week-5 {
+    background-image:
+    linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url('Pictures/Week5.jpg');
+}
+.week-6 {
+    background-image:
+    linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+    url('Pictures/Week6.jpg');
+}
