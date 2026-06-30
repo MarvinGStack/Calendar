@@ -67,7 +67,7 @@ function buildCalendar(totalDoors, startDate, notes, gridId, weekClasses, hasSec
 }
 
 buildCalendar(21, new Date(2026, 4, 25), notesOne, "calendar-grid", ["week-1", "week-2", "week-3"], true);
-buildCalendar(21, new Date(2026, 5, 1), notesTwo, "calendar-grid-two", ["week-4", "week-5", "week-6"], false);
+buildCalendar(21, new Date(2026, 5, 30), notesTwo, "calendar-grid-two", ["week-4", "week-5", "week-6"], false);
 
 if (localStorage.getItem("chapterTwoUnlocked") === "true") {
     document.getElementById("chapter-two").style.display = "block";
