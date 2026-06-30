@@ -179,3 +179,10 @@ h1 {
 .locked.shake {
     animation: shake 0.3s ease;
 }
+.chapter-two-header h2 {
+    font-family: 'Playfair Display', serif;
+    color: #4d0547;
+    font-size: 32px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin-bottom: 0.25rem;
+}
