@@ -41,9 +41,14 @@ h1 {
     cursor: pointer;
     aspect-ratio: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: transform 0.2s ease;
+    gap: 4px;
+}
+.door-icon {
+    font-size: 0.9rem;
 }
 .door:hover {
     transform: scale(1.08);
@@ -98,7 +103,7 @@ h1 {
     font-family: 'Playfair Display', sans-serif;
     font-size: 18px;
     line-height: 1.8;
-    color: #561383;
+    color: #27033f;
     font-style:italic;
 }
 #modal-close {
@@ -156,10 +161,21 @@ h1 {
 .week-5 {
     background-image:
     linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
-    url('Pictures/Week5.jpg');
+    url('Pictures/Week5-3.jpg');
 }
 .week-6 {
     background-image:
     linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
     url('Pictures/Week6.jpg');
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.locked.shake {
+    animation: shake 0.3s ease;
 }
